@@ -3,7 +3,7 @@
 
 ## 🛠️ Installation Steps
 ***
-1. Fork the project. Click on the  icon in the top right to get started
+1.[Fork](https://github.com/YadnikaDabhade/Travel-WorldWeb.git) the project. Click on the  icon in the top right to get started
 
 2. Clone the project, you can use the following command:
 ```
