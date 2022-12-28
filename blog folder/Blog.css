@@ -249,6 +249,7 @@ html::-webkit-scrollbar-thumb {
 
 .blog-box:hover{
   border: 1px solid #219150;
+  transform: translateY(-10px);
 }
 
 .blog-img{
