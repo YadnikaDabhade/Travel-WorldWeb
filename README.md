@@ -1,6 +1,11 @@
 # Travel-WorldWeb![Screenshot (31)](https://user-images.githubusercontent.com/99734957/206370455-fc03cae7-1420-4376-9e81-5f50436dcdb7.png)
 ### This Repository contains Travel-WorldWeb website home page , which require more slides/section to be added in it to complete the website . If you are someone who has just started his/her journey in web dev then you should surely try to work on the issues of the projects as they are extremely beginner friendly , you can add the section using your creativity. Also, you can add new section if you want. The main aim of this Repository is to introduce you to open source and know the importance of project-based learning.
 
+# Technologies
+- HTML
+- Javascript
+- CSS
+
 ## 🛠️ Installation Steps
 ***
 1.[Fork](https://github.com/YadnikaDabhade/Travel-WorldWeb.git) the project. Click on the  icon in the top right to get started
