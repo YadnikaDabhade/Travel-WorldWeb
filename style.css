@@ -85,6 +85,7 @@ section {
   font-size: 2.5rem;
   color: #10221b;
   font-weight: bolder;
+  font-family: 'Lobster', cursive;
 }
 
 .header .logo i {
@@ -345,4 +346,172 @@ section {
 
 #Reviews .col-3:hover{
   transform: translateY(-10px);
+}
+/* Search bar for Booking */
+form {
+  width: 966px;
+  height: 118px;
+  margin: 6px 20px;
+  padding: 18px 11px;
+  text-align: center;
+  border: 2px black;
+  display: flex;
+  position: absolute;
+  left: 277px;
+  border-style: outset;
+  border-radius: 5px 5px;
+}
+form:hover{
+  background-color: black;
+  color: white;
+}
+input[type="text"]{
+  width: 138px;
+  height: 27px;
+    border: 1px solid black;
+    position: absolute;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    left: 15px;
+    top: 61px;
+    text-align: center;
+    background-color: #dbe5da;
+}
+
+
+input[type="text"]:hover{
+color: white;
+border: 1px solid white;
+background-color: transparent;
+}
+
+#whereto{
+  padding: 2px 5px;
+  position: absolute;
+  display: flex;
+  top: 24px;
+  left: 39px;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+#date1{
+  left: 167px;
+  position: absolute;
+  width: 116px;
+  height: 27px;
+  top: 61px;
+  background: #dbe5da;
+  border: 1px solid black;
+}
+/* #date1:hover{
+  border: 1px solid white;
+background-color: transparent;
+color: #219150;
+} */
+#Departure{
+  font-size: 1.6rem;
+    padding: 2px 5px;
+    position: absolute;
+    display: flex;
+    top: 24px;
+    left: 181px;
+    font-weight: bold;
+}
+
+#date2{
+  left: 300px;
+  width: 116px;
+  height: 27px;
+  position: absolute;
+  top: 61px;
+  background: #dbe5da;
+  border: 1px solid black;
+}
+#Arrival{
+  font-size: 1.6rem;
+  padding: 2px 5px;
+  position: absolute;
+  display: flex;
+  top: 24px;
+  left: 326px;
+  font-weight: bold;
+}
+
+#options{
+  border: 1px solid black;
+    left: 433px;
+    width: 116px;
+    height: 27px;
+    position: absolute;
+    background: #dbe5da;
+    top: 61px;
+    font-weight: bold;
+}
+#options:hover{
+  color: white;
+  border: 2px solid white;
+  background-color: black;
+}
+#submit{
+  left: 671px;
+  position: absolute;
+  top: 53px;
+  background-color: black;
+  border: 2px solid white;
+  font-weight: bold;
+  width: 274px;
+  height: 37px;
+  /* border-radius: 10px; */
+  border-radius: 0px 34px;
+  color: white;
+}
+
+#submit:hover{
+  color: black;
+  border: 2px solid white;
+  background-color: white;
+  }
+
+  #Travellers{
+    font-size: 1.6rem;
+    padding: 2px 5px;
+    position: absolute;
+    display: flex;
+    top: 24px;
+    left: 557px;
+    font-weight: bold;
+  }
+
+#guest{
+  left: 567px;
+    position: absolute;
+    width: 66px;
+    height: 27px;
+    top: 61px;
+    background: #dbe5da;
+    border: 1px solid black;
+}
+#guest:hover{
+  color: white;
+  border: 2px solid white;
+  background-color: black;
+}
+
+#budget{
+  font-size: 1.6rem;
+    padding: 2px 5px;
+    position: absolute;
+    display: flex;
+    top: 24px;
+    left: 456px;
+    font-weight: bold;
+}
+
+#radio{
+  font-size: 1.6rem;
+  left: 725px;
+  position: absolute;
+  top: 26px;
+  font-weight: bold;
 }
