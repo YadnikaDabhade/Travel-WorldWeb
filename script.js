@@ -131,3 +131,25 @@ var swiper = new Swiper(".clients-slider", {
         },
     },
 });
+
+
+const body = document.querySelector("body");
+const toggle = document.getElementById("switchTheme");
+
+
+
+toggle.addEventListener("click", function () {
+  this.classList.toggle("bi-moon");
+  if (this.classList.toggle("bi-brightness-high-fill")) {
+    body.style.background = "linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%)";
+    
+    switchTheme.style.backgroundColor = "black";
+    
+  } else {
+    body.style.background =
+      "linear-gradient(to right, #0f0c29, #302b63, #24243e)";
+    icons.style.color = "white";
+    switchTheme.style.color = "white";
+    
+  }
+});
