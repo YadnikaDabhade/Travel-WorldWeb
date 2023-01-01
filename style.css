@@ -14,6 +14,10 @@
   transition: .2s linear;
 }
 
+
+
+
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -76,7 +80,7 @@ section {
 }
 
 .header.active {
-  background: #fff;
+  /* background: #fff; */
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -126,6 +130,21 @@ section {
 .header #menu-btn {
   display: none;
 }
+
+/* Dark Mode Styling */
+ #switchTheme{
+padding: 1rem;
+margin: 1rem;
+cursor: pointer;
+ }
+
+
+ @media (prefers-color-scheme: dark){
+  .navbar{
+    background-color: #10221b;
+    
+  }
+ }
 
 .search-form {
   position: fixed;
