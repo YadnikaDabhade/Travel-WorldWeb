@@ -651,6 +651,11 @@ section {
   color: #10221b;
 }
 
+.blogs .slide:hover{
+  border: 1px solid #219150;
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 .newsletter {
   background: #eee;
 }
