@@ -13,7 +13,7 @@
 **2**. Clone the project, you can use the following command:
 
 ```bash
-git clone https://github.com/YadnikaDabhade/Travel-WorldWeb
+git clone https://github.com/yourgithubusername/YadnikaDabhade/Travel-WorldWeb
 ```
 
 ## 🥂 After making a change
@@ -31,16 +31,33 @@ git checkout -b YourBranchName
 git add <path to the file you worked on>
 ```
 
+or
+
+```bash
+git add .
+```
+
 **3**. Commit your changes with
 
 ```bash
 git cz
 ```
 
+or
+
+```bash
+git commit -m "your message"
+```
+
 **4**. Push your changes
 
 ```bash
 git push
+```
+or
+
+```bash
+git push -u origin branchname
 ```
 
 ## 🫴 How to Do Your First Pull Request?  
