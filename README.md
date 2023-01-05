@@ -1,9 +1,11 @@
 # Travel-WorldWeb
 
+Travel-WorldWeb: A one stop destination for all kinds of users
 
+![Screenshot (119)](https://user-images.githubusercontent.com/97719669/210505080-f875166a-6466-41e6-ba21-a0f7bed9db97.png)
 
-
-
+The services are as fascinating as the webpage you are looking up!
+So let's get started
 
 ## 🛠️ Installation Steps
 
@@ -13,7 +15,7 @@
 **2**. Clone the project, you can use the following command:
 
 ```bash
-git clone https://github.com/YadnikaDabhade/Travel-WorldWeb
+git clone https://github.com/yourgithubusername/YadnikaDabhade/Travel-WorldWeb
 ```
 
 ## 🥂 After making a change
@@ -31,16 +33,33 @@ git checkout -b YourBranchName
 git add <path to the file you worked on>
 ```
 
+or
+
+```bash
+git add .
+```
+
 **3**. Commit your changes with
 
 ```bash
 git cz
 ```
 
+or
+
+```bash
+git commit -m "your message"
+```
+
 **4**. Push your changes
 
 ```bash
 git push
+```
+or
+
+```bash
+git push -u origin branchname
 ```
 
 ## 🫴 How to Do Your First Pull Request?  
